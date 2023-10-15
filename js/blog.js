@@ -1,7 +1,7 @@
 const blogApp = {
   blogList: [],
   currentPage: 0,
-  itemsPerPage: 8,
+  itemsPerPage: 50,
 
   fetchBlogList: async function () {
     try {
